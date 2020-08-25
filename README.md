@@ -40,25 +40,25 @@
 
 - **`Apresentar brevemente a empresa, seus produtos e serviços`**:
 
-  ![](.\assets\gifs\index.gif)
+<img src="https://github.com/NewZaqueu/CafeProjetos/blob/master/assets/gifs/index.gif">
 
 
 - **`Apresentar história da empresa`**:
 
-  ![](.\assets\gifs\institucional.gif)
+  <img src="https://github.com/NewZaqueu/CafeProjetos/blob/master/assets/gifs/institucional.gif">
 
 
 - **`Apresentar todos os produtos`**:
 
-  ![](.\assets\gifs\produtos.gif)
+  <img src="https://github.com/NewZaqueu/CafeProjetos/blob/master/assets/gifs/produtos.gif">
 
 
 - **`Apresentar todos os serviços`**:
 
-  ![](.\assets\gifs\servicos.gif)
+  <img src="https://github.com/NewZaqueu/CafeProjetos/blob/master/assets/gifs/servicos.gif">
 
 
 - **`Apresentar meio de comunicação com a empresa`**:
 
-  ![](.\assets\gifs\contato.gif)
+  <img src="https://github.com/NewZaqueu/CafeProjetos/blob/master/assets/gifs/contato.gif">
 
