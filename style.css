@@ -1,0 +1,322 @@
+/* FORMATÇÃO GERAIS */
+p{
+    text-align: justify;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+/* ------------------PÁGINA DE SERVICOS & PRODUTOS-- */
+
+
+.box-text{
+    margin-left:-15px;
+    padding:4px;
+    padding-right: 20px;
+    border: 1.5px rgba(0, 0, 0, .05) solid;
+    border-right:none;
+}
+
+/* --NAVTABS-- */
+
+.nav-tabs a.nav-link{
+    color:#343a40;
+    font-weight: bolder;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+}
+
+.nav-tabs a.nav-link.active{
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, .2);
+}
+
+.tab-pane{
+    padding-top: 1.5rem;
+}
+
+.tab-pane .card{
+    border: none;
+}
+
+.tab-pane .row div:nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ------------------PÁGINA DE CONTATOS-- */
+
+/* JUMBOTRON */
+#jumbotron-contatos p{
+    font-size: 1.3em;
+    font-style:italic;
+}
+
+#jumbotron-contatos h2{
+    text-align: center;
+}
+
+#jumbotron-contatos > h2{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+/* FORMULARIO */
+#contato-form input, #contato-form textarea{
+    padding: 2.5rem 1.5rem;
+    font-size:1.5rem
+}
+
+#contato-form textarea{
+    min-height:300px;
+}
+
+#contato-form .form-row{
+    margin-top:1rem;
+    margin-bottom:1rem;
+}
+
+#contato-form button.btn-lg{
+    padding:1rem 1.5rem;
+    font-size: 2rem;
+    margin-top:.5rem;
+}
+
+/* MAPA */
+#map-contatos, #map-contatos > div{
+    margin:0;
+    padding: 0;
+}
+
+/* -----------------------HEADER -----------------------*/
+
+#menu.navbar{
+    padding: 5px 20px;
+    position: absolute;
+    z-index: 9999;
+    width: 100%;
+    background: rgba(0, 0, 0, .5);
+    font-size: 1.3em;
+}
+ 
+.navbar-nav a.nav-item.nav-link {
+    padding-right:20px;
+    letter-spacing: .2em;
+}
+
+#logo-menu{
+    text-indent: -3000px;
+    background: url('./assets/img/logo-black.png');
+    width: 100px;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    background-position: center;
+   
+}
+
+/* ----------------------- CAROUSEL HOME -----------------------*/
+
+#carousel-home{
+    margin:0;
+}
+
+#carousel-home > .col{
+    padding:0;
+}
+
+.carousel-item > div{
+    height:65vh;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.carousel-item p{
+    text-align: center;
+    letter-spacing: .1em;
+    font-size: 1.2em;
+    color:rgba(255, 255, 255);
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.9),
+                 0 0 5px rgba(0, 0, 0, .5);
+}
+
+.img1-home{ background-image: url('./assets/img/img1.jpg');}
+.img2-home{ background-image: url('./assets/img/img2.jpg');}
+.img3-home{ background-image: url('./assets/img/img3.jpg');}
+
+/* ----------------------- MAIN -----------------------*/
+
+main .display-4{
+    border-left: 1.5px #000 solid;
+    padding-left: 8px;
+    padding-bottom: .2rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-shadow: slategrey 2px 2px 4px;
+}
+
+.title-page{
+    margin-bottom: 48px;
+}
+
+
+/* -- Seções -- */
+
+.section1{
+    background: url('./assets/img/img9.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.section1 .container{
+    padding-top:100px;
+    padding-bottom:100px;
+    background-color: rgba(255, 255, 255, .1);
+}
+
+
+main section.section2{
+    margin:100px auto;
+}
+
+/* -- Cartões de Imagens -- */
+
+main .card{
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+
+main .card img{
+    min-height: 250px;
+}
+
+main .card-img-overlay{
+    background-color:rgba(0, 0, 0, .8);
+    padding:0;
+    top:unset;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+    height:20%;
+}
+
+main h3.overlay-title{
+    height: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+    line-height: 2;
+}
+
+
+/* ----------------------- FOOTER -----------------------*/
+
+footer .link-contato{
+    
+    color: #fff
+}
+
+footer .link-contato:hover{
+    color: rgba(255, 255, 255, .7);
+    text-shadow: #000 2px 2px 5px;
+}
+
+footer .link-adress:hover i{
+    box-shadow: rgba(255, 255, 255, .7);
+}
+
+footer ul{
+    padding:0px;
+    margin:0px;
+}
+
+footer ul a{
+    letter-spacing: .2rem;
+    font-size: 1.2em;
+    
+}
+
+#logo-footer{
+    background: url('./assets/img/logo-black.png');
+    text-indent: -3000px;
+    height: 100px;
+    margin-bottom:1rem;
+    background-position:center;
+    background-repeat: no-repeat;
+    
+}
+
+footer .navbar-nav a.nav-item.nav-link {
+    letter-spacing: .3em;
+}
+
+i.fa-2x{
+    margin-right: 10px;
+}
+
+
+
+
+
+@media (min-width: 576px) {
+
+    /* CAROUSEL */
+    .carousel-item p{
+        margin-top: 20px;
+        letter-spacing: .3em;
+        font-size: 1.3em;
+    }
+
+}
+
+@media (min-width: 768px) {
+    
+    #jumbotron-contatos h2{
+        text-align: center;
+        font-size: 3rem;
+    }
+    
+    #jumbotron-contatos > h2{
+        font-size: 2.8rem;
+    }
+
+    
+    #jumbotron-contatos p{
+        text-align: left;
+    }
+    
+
+    .carousel-item p{
+        font-size: 1.5em;
+    }
+
+}
+
+
+@media (min-width: 992px) {
+    
+    #jumbotron-contatos h2{
+        font-size: 3.5rem;
+    }
+
+    #jumbotron-contatos > h2{
+        font-size: 3rem;
+    }
+
+    .carousel-item p{
+        letter-spacing: .5em;
+        text-align: left;
+        margin:auto;
+        margin-right:80px;
+    }
+
+     /* CAROUSEL */
+     .carousel-item p{
+        letter-spacing: .5em;
+        font-size: 1.5em;
+    }
+
+
+}
