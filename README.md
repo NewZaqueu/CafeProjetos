@@ -36,7 +36,7 @@
 - **`Apresentar meio de comunicação com a empresa`**: Deve ser capaz de informar todos os meios de comunicação pelos quais a empresa pode ser contatada.
 
 
-### Meu Resultado
+## Meu Resultado
 
 - **`Apresentar brevemente a empresa, seus produtos e serviços`**:
 
